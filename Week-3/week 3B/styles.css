@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(image/pexels3.jpg) no-repeat center center/cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.registration-form{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.registration-form h1 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.registration-form p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.registration-form input {
+    font-size: 20px;
+    padding: 10px 10;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover {
+     color: red;
+}
+
